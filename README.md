@@ -1,3 +1,7 @@
+A. Purpose and Description of the Vehicle Management System
+
+The Vehicle Management System is designed to represent different types of vehicles and their behavior. It models cars, motorcycles, and trucks, and shows how object-oriented programming concepts are used to organize and manage the system.
+
 B. Class Hierarchy
 
 Superclass and Subclasses
@@ -20,6 +24,12 @@ javac *.java
 
 To run the program, use the following command:
 java Main
+
+How Inheritance Simplified the Design - Inheritance simplified the design by allowing all vehicle types to share common fields and methods from the Vehicle class. This reduced code duplication and made the system easier to maintain and extend.
+
+How Method Overriding Helped Customize Behavior - Method overriding allowed each vehicle subclass to provide its own implementation of the startEngine() and stopEngine() methods. This made it possible for different vehicle types to have specific behavior while using the same method names.
+
+Challenges Faced When Using Protected and Default Access Modifiers - Using protected access made fields accessible to subclasses but required careful control to avoid misuse. Default access limited visibility to the same package, which sometimes caused access issues when classes were organized into different packages.
 
 SCREENSHOTS
 <img width="462" height="339" alt="screen1" src="https://github.com/user-attachments/assets/c5484ebc-9ea2-4446-9abd-54e8d445ea50" />
