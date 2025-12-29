@@ -1,0 +1,3 @@
+The Vehicle Management System is used to represent different types of vehicles and how they work. It includes cars, motorcycles, and trucks, which all share common features. The system uses an abstract Vehicle class to define common properties and methods, while each vehicle type has its own implementation. 
+Inheritance is used so that Car, Motorcycle, and Truck extend the Vehicle class. Composition is used because each vehicle has a Driver object. 
+Aggregation is used because one driver can be connected to multiple vehicles. This design helps organize the code and makes it easier to manage and extend the system.
